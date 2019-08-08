@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Loi三石的Technic</title>
+        <description>这里有初心，有我想弄明白的事情</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self"
+        type="application/rss+xml"/>
+        <pubDate>Sat, 02 Jun 2018 18:36:28 +0800</pubDate>
+        <lastBuildDate>Sat, 02 Jun 2018 18:36:28 +0800</lastBuildDate>
+        <generator>Jekyll v3.7.3</generator>
+        
+        <item>
+            <title>基础逻辑学</title>
+            <description>&lt;blockquote&gt;
+  &lt;p&gt;Logic &amp;gt; 逻辑以傍身&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;更新于20180602&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[✨]判断之间的关系推理
+    &lt;ul&gt;
+      &lt;li&gt;判断的种类
+        &lt;ul&gt;
+          &lt;li&gt;[☆]简单判断的种类
+            &lt;ul&gt;
+              &lt;li&gt;三维度
+                &lt;ul&gt;
+                  &lt;li&gt;性质(肯定or否定)，范围(全称or特称or单称)，程度(必然or可能or现实)&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;注意点
+                &lt;ul&gt;
+                  &lt;li&gt;一：肯定/否定/全称/特称/单称/必然/可能/现实判断&lt;/li&gt;
+                  &lt;li&gt;二：全称/特称/单称判断的不同范围
+                    &lt;ul&gt;
+                      &lt;li&gt;&lt;strong&gt;“有些”表示判断的范围是特称&lt;/strong&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;strong&gt;对特称判断的理解：判断的对象不是全部，但不排除全部&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                  &lt;li&gt;三：否定词“不”对判断涵义的影响&lt;/li&gt;
+                  &lt;li&gt;四：模态词的位置不会影响判断的涵义&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;[☆]复合判断的种类
+            &lt;ul&gt;
+              &lt;li&gt;三分类
+                &lt;ul&gt;
+                  &lt;li&gt;联言判断/选言判断/假言判断&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;假言判断的细分
+                &lt;ul&gt;
+                  &lt;li&gt;充要条件&lt;/li&gt;
+                  &lt;li&gt;充分条件&lt;/li&gt;
+                  &lt;li&gt;必要条件
+                    &lt;ul&gt;
+                      &lt;li&gt;&lt;strong&gt;将充分和必要条件假言判断统一表示为：充分-&amp;gt;必要&lt;/strong&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;strong&gt;命题p-&amp;gt;q，在逻辑涵义上等价于命题非q-&amp;gt;非p，两者互为逆否命题&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;判断之间的关系
+        &lt;ul&gt;
+          &lt;li&gt;[☆]思考前提
+            &lt;ul&gt;
+              &lt;li&gt;主项与谓项相同与否
+                &lt;ul&gt;
+                  &lt;li&gt;都不相同：两命题间没有逻辑上的真假关系&lt;/li&gt;
+                  &lt;li&gt;一项相同一项不同：进一步考察概念之间的关系&lt;/li&gt;
+                  &lt;li&gt;两项都相同：存在逻辑真假关系&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;[☆]逻辑真假关系
+            &lt;ul&gt;
+              &lt;li&gt;矛盾关系
+                &lt;ul&gt;
+                  &lt;li&gt;不能同真、不能同假的关系
+                    &lt;ul&gt;
+                      &lt;li&gt;&lt;strong&gt;理解否定的含义，存在否定特称判断以强调全称判断的情况&lt;/strong&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;strong&gt;关注因否定词位置的不同而产生的命题之间的等价，对命题的否定等价于此命题的矛盾命题&lt;/strong&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;推导关系
+                &lt;ul&gt;
+                  &lt;li&gt;同性质可推，“联言真”推“简单真”推“选言真”&lt;/li&gt;
+                  &lt;li&gt;&lt;strong&gt;简单判断之间：同性质可推，“全称真”，则“单称真”，则“特称真”；“必然真”，则“现实真”，则“可能真”&lt;/strong&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;—– —– —– 华丽的文章配图分界线 —– —– —–&lt;/p&gt;
+
+&lt;p&gt;判断的完整分类：&lt;/p&gt;
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/logic/classificationofproposition.jpg&quot; alt=&quot;命题的完整分类&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;“模态词”和“否定词”组合，区分八种问题方式：&lt;/p&gt;
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/logic/categoriesofquestions.jpg&quot; alt=&quot;问题的类型&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;判断作为概念之间关系的延伸，在逻辑知识理论体系中起到承上启下的作用：&lt;/p&gt;
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/logic/judgements.jpg&quot; alt=&quot;判断的种类和关系&quot; /&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;逻辑以傍身，BAZINGA！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/timg04.jpg&quot; alt=&quot;猫咪吐舌头&quot; /&gt;&lt;/div&gt;
+
+</description>
+            <pubDate>Sat, 02 Jun 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/06/02/logic.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/06/02/logic.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>iOS研发备忘录</title>
+            <description>&lt;p&gt;《iOS研发备忘录》&lt;/p&gt;
+
+&lt;p&gt;不功利的学习，是初心。&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/tigerCat.jpg&quot; alt=&quot;tigerCat&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;【时间：2018年4月30日，晚间】&lt;/p&gt;
+
+&lt;p&gt;【主题：Objective-C的语言特性】&lt;/p&gt;
+
+&lt;p&gt;【备忘录】&lt;/p&gt;
+
+&lt;p&gt;(1) Overview&lt;/p&gt;
+
+&lt;p&gt;Objective-C Framework is one of App Frameworks, it gains low-level access to the Objective-C runtime and the Objective-C root types.&lt;/p&gt;
+
+&lt;p&gt;The Objective-C module APIs define the base of the Objective-C language. These APIs include:&lt;/p&gt;
+
+&lt;p&gt;Types such as the NSObject class and the NSObject protocol that provide the root functionality of most Objective-C classes.&lt;/p&gt;
+
+&lt;p&gt;Functions and data structures that comprise the Objective-C runtime, which provides support for the dynamic properties of the Objective-C language.&lt;/p&gt;
+
+&lt;p&gt;(2) Objective-C Runtime, Structures, Constants, Functions, Data Types&lt;/p&gt;
+
+&lt;p&gt;【参考】&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.yinwang.org/blog-cn/2017/07/06/master-pl&quot;&gt; &amp;gt; (1) 如何掌握所有的程序语言&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://developer.apple.com/documentation/objectivec?language=objc&quot;&gt; &amp;gt; (2) Apple Developer Documentation: Objective-C&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/authors/ReveiveMony.jpg&quot; alt=&quot;ReveiveMony&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;多谢支持&lt;/p&gt;
+</description>
+            <pubDate>Mon, 30 Apr 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/04/30/dev-memo.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/04/30/dev-memo.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>使用Python和BeautifulSoup來抓取網站</title>
+            <description>&lt;p&gt;使用Python和BeautifulSoup來抓取網站&lt;/p&gt;
+
+&lt;p&gt;scrape websites with Python and BeautifulSoup&lt;/p&gt;
+
+&lt;p&gt;========== ==========&lt;/p&gt;
+
+&lt;p&gt;假期即将结束的今晚，尝试下用 Python 3.x 和 BeautifulSoup，做个爬虫，爬取某网站上感兴趣的信息，并输出.csv文件。&lt;/p&gt;
+
+&lt;p&gt;过程非常简单，稍微有一点前端和Python常识的同学，一看就会。&lt;/p&gt;
+
+&lt;p&gt;编程环境: Python 3.6.5 / macOS 10.12.6&lt;/p&gt;
+
+&lt;p&gt;步骤如下：&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; 檢查頁面 Inspecting the Page&lt;/p&gt;
+
+&lt;p&gt;分析下要爬取得网页的标签结构，这里不赘述了&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; 跳入代碼 Jump into the Code&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/loiwu/scraper/commit/f937f4e4cafa32fa577b26a422093cd33192b625&quot;&gt;代码在这: My GitHub - jump to the code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; 導出到Excel CSV Export to Excel CSV&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/loiwu/scraper/commit/b85f5657fdabf36560427ee2d909fdf66902b45a&quot;&gt;代码在这: My GitHub - export to excel csv&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/loiwu/scraper/blob/master/main.py&quot;&gt;完整的代码在这里: My GitHub - scraper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想和我交朋友^_^，请打赏并留言，我们一起探讨下人生：&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/authors/ReveiveMony.jpg&quot; alt=&quot;ReveiveMony&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;========== ==========&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://loiwu.github.io&quot;&gt; loiwu.github.io &lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/timg02.jpg&quot; alt=&quot;loi&quot; /&gt;&lt;/div&gt;
+
+</description>
+            <pubDate>Fri, 06 Apr 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/04/06/beautifulsoup.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/04/06/beautifulsoup.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>前端抢手货之 Vue.js和微信小程序框架</title>
+            <description>&lt;p&gt;Vue.js和微信小程序框架，还是那句话，市场行情就是这样，赶紧学吧。&lt;/p&gt;
+
+&lt;p&gt;========== ==========&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/Meituan-Dianping/mpvue&quot;&gt; Part A &amp;gt; mpvue &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/Meituan-Dianping/mpvue&quot;&gt;mpvue, 是基于Vue.js的小程序开发框架, 从底层支持Vue.js语法和构建工具体系&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;========== ==========&lt;/p&gt;
+
+&lt;p&gt;Part A mpvue，就是重点，赶紧点开来研究代码吧，&lt;/p&gt;
+
+&lt;p&gt;Part B Vue.js，就是一堆非常随意的字，别看了，对你没用。&lt;/p&gt;
+
+&lt;p&gt;========== ==========&lt;/p&gt;
+
+&lt;p&gt;Part B : Vue.js，构建用户界面的渐进式框架&lt;/p&gt;
+
+&lt;p&gt;Vue.js（读音 /vjuː/, 类似于 view）。&lt;/p&gt;
+
+&lt;p&gt;Vue 只关注视图层，采用自底向上增量开发的设计。&lt;/p&gt;
+
+&lt;p&gt;Vue 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。&lt;/p&gt;
+
+&lt;p&gt;Vue.js 提供一个官方命令行工具 vue-cli，可用于快速搭建大型单页应用。&lt;/p&gt;
+
+&lt;p&gt;结合使用npm，可以对Vue.js工程进行初始化并运行。&lt;/p&gt;
+
+&lt;p&gt;一、Vue.js 目录结构&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;目录/文件&lt;/td&gt;
+      &lt;td&gt;说明&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;build&lt;/td&gt;
+      &lt;td&gt;项目构建(webpack)相关代码&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;config&lt;/td&gt;
+      &lt;td&gt;配置目录，包括端口号等&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;node_modules&lt;/td&gt;
+      &lt;td&gt;npm 加载的项目依赖模块&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;src&lt;/td&gt;
+      &lt;td&gt;开发目录。包含：assets，components，router，App.vue，main.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;static&lt;/td&gt;
+      &lt;td&gt;静态资源目录，如图片、字体等&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;test&lt;/td&gt;
+      &lt;td&gt;初始测试目录&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;.xxxx文件&lt;/td&gt;
+      &lt;td&gt;这些是一些配置文件，包括语法配置，git配置等&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;index.html&lt;/td&gt;
+      &lt;td&gt;首页入口文件，你可以添加一些 meta 信息或统计代&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;package.json&lt;/td&gt;
+      &lt;td&gt;项目配置文件&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;README.md&lt;/td&gt;
+      &lt;td&gt;项目的说明文档，markdown 格式&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;二、Vue.js 起步&lt;/p&gt;
+
+&lt;p&gt;每个 Vue 应用都需要通过实例化 Vue 来实现。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	var vm = new Vue({
+  		// 选项
+	})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Vue 构造器中有一个el 参数，它是 DOM 元素中的 id，data 用于定义属性，methods 用于定义的函数， 用于输出对象属性和函数返回值。&lt;/p&gt;
+
+&lt;p&gt;当一个 Vue 实例被创建时，它向 Vue 的响应式系统中加入了其 data 对象中能找到的所有的属性。当这些属性的值发生改变时，html 视图将也会产生相应的变化。&lt;/p&gt;
+
+&lt;p&gt;除了数据属性，Vue 实例还提供了一些有用的实例属性与方法。它们都有前缀 $，以便与用户定义的属性区分开来。&lt;/p&gt;
+
+&lt;p&gt;三、Vue.js 模板语法&lt;/p&gt;
+
+&lt;p&gt;Vue.js 使用了基于 HTML 的模版语法，允许开发者声明式地将 DOM 绑定至底层 Vue 实例的数据。&lt;/p&gt;
+
+&lt;p&gt;Vue.js 的核心是一个允许你采用简洁的模板语法来声明式的将数据渲染进 DOM 的系统。&lt;/p&gt;
+
+&lt;p&gt;结合响应系统，在应用状态改变时， Vue 能够智能地计算出重新渲染组件的最小代价并应用到 DOM 操作上。&lt;/p&gt;
+
+&lt;p&gt;1）插值&lt;/p&gt;
+
+&lt;p&gt;文本：数据绑定最常见的形式就是使用 /{/{…/}/}（双大括号）的文本插值&lt;/p&gt;
+
+&lt;p&gt;Html：使用 v-html 指令用于输出 html 代码&lt;/p&gt;
+
+&lt;p&gt;属性：HTML 属性中的值应使用 v-bind 指令&lt;/p&gt;
+
+&lt;p&gt;表达式：Vue.js 都提供了完全的 JavaScript 表达式支持&lt;/p&gt;
+
+&lt;p&gt;2）指令&lt;/p&gt;
+
+&lt;p&gt;指令是带有 v- 前缀的特殊属性。指令用于在表达式的值改变时，将某些行为应用到 DOM 上。&lt;/p&gt;
+
+&lt;p&gt;参数：参数在指令后以冒号指明。&lt;/p&gt;
+
+&lt;p&gt;如， v-bind 指令被用来响应地更新 HTML 属性，在这里 href 是参数，告知 v-bind 指令将该元素的 href 属性与表达式 url 的值绑定。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;div id=&quot;app&quot;&amp;gt;
+    	&amp;lt;pre&amp;gt;&amp;lt;a v-bind:href=&quot;url&quot;&amp;gt;Loi的技术Blog&amp;lt;/a&amp;gt;&amp;lt;/pre&amp;gt;
+	&amp;lt;/div&amp;gt;
+	&amp;lt;script&amp;gt;
+		new Vue({
+  			el: '#app',
+  			data: {
+    		url: 'http://loiwu.github.io'
+  			}
+		})
+	&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;如，v-on 指令，它用于监听 DOM 事件，在这里参数是监听的事件名。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;a v-on:click=&quot;doSomething&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;修饰符：修饰符是以半角句号 . 指明的特殊后缀，用于指出一个指定应该以特殊方式绑定。&lt;/p&gt;
+
+&lt;p&gt;如，.prevent 修饰符告诉 v-on 指令对于触发的事件调用 event.preventDefault()：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;form v-on:submit.prevent=&quot;onSubmit&quot;&amp;gt;&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3）用户输入&lt;/p&gt;
+
+&lt;p&gt;在 input 输入框中可以使用 v-model 指令来实现双向数据绑定，按钮的事件我们可以使用 v-on 监听事件，并对用户的输入进行响应。&lt;/p&gt;
+
+&lt;p&gt;4）过滤器&lt;/p&gt;
+
+&lt;p&gt;Vue.js 允许自定义过滤器，被用作一些常见的文本格式化。由”管道符”指示, 格式如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 在两个大括号中 --&amp;gt;
+	/{/{ message | capitalize /}/}
+	&amp;lt;!-- 在 v-bind 指令中 --&amp;gt;
+	&amp;lt;div v-bind:id=&quot;rawId | formatId&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;过滤器可以串联：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	/{/{ message | filterA | filterB /}/}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;过滤器是 JavaScript 函数，因此可以接受参数：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	/{/{ message | filterA('arg1', arg2) /}/}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这里，message 是第一个参数，字符串 ‘arg1’ 将传给过滤器作为第二个参数， arg2 表达式的值将被求值然后传给过滤器作为第三个参数。&lt;/p&gt;
+
+&lt;p&gt;5）缩写&lt;/p&gt;
+
+&lt;p&gt;（1）v-bind 缩写&lt;/p&gt;
+
+&lt;p&gt;Vue.js 为两个最为常用的指令提供了特别的缩写：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 完整语法 --&amp;gt;
+	&amp;lt;a v-bind:href=&quot;url&quot;&amp;gt;&amp;lt;/a&amp;gt;
+	&amp;lt;!-- 缩写 --&amp;gt;
+	&amp;lt;a :href=&quot;url&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;（2）v-on 缩写&lt;/p&gt;
+
+&lt;p&gt;Vue.js 为两个最为常用的指令提供了特别的缩写：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 完整语法 --&amp;gt;
+	&amp;lt;a v-on:click=&quot;doSomething&quot;&amp;gt;&amp;lt;/a&amp;gt;
+	&amp;lt;!-- 缩写 --&amp;gt;
+	&amp;lt;a @click=&quot;doSomething&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;四、Vue.js 条件与循环&lt;/p&gt;
+
+&lt;p&gt;1）条件判断&lt;/p&gt;
+
+&lt;p&gt;（1）v-if&lt;/p&gt;
+
+&lt;p&gt;条件判断使用 v-if 指令&lt;/p&gt;
+
+&lt;p&gt;（2）v-else&lt;/p&gt;
+
+&lt;p&gt;用 v-else 指令给 v-if 添加一个 “else” 块&lt;/p&gt;
+
+&lt;p&gt;（3）v-else-if&lt;/p&gt;
+
+&lt;p&gt;v-else-if 在 2.1.0 新增，用作 v-if 的 else-if 块，可以链式的多次使用&lt;/p&gt;
+
+&lt;p&gt;（4）v-show&lt;/p&gt;
+
+&lt;p&gt;可以使用 v-show 指令来根据条件展示元素&lt;/p&gt;
+
+&lt;p&gt;2）循环语句&lt;/p&gt;
+
+&lt;p&gt;循环使用 v-for 指令。&lt;/p&gt;
+
+&lt;p&gt;v-for 指令需要以 site in sites 形式的特殊语法， sites 是源数据数组并且 site 是数组元素迭代的别名。&lt;/p&gt;
+
+&lt;p&gt;（1）v-for 迭代对象&lt;/p&gt;
+
+&lt;p&gt;v-for 可以通过一个对象的属性来迭代数据，也可以提供第二个的参数为键名，第三个参数为索引。&lt;/p&gt;
+
+&lt;p&gt;（2）v-for 迭代整数&lt;/p&gt;
+
+&lt;p&gt;v-for 也可以循环整数。&lt;/p&gt;
+
+&lt;p&gt;五、Vue.js 计算属性&lt;/p&gt;
+
+&lt;p&gt;计算属性关键词: computed。&lt;/p&gt;
+
+&lt;p&gt;可以使用 methods 来替代 computed，效果上两个都是一样的，但是 computed 是基于它的依赖缓存，只有相关依赖发生改变时才会重新取值。&lt;/p&gt;
+
+&lt;p&gt;而使用 methods ，在重新渲染的时候，函数总会重新调用执行。可以说使用 computed 性能会更好，但是如果不希望缓存，那可以使用 methods 属性。&lt;/p&gt;
+
+&lt;p&gt;computed setter：computed 属性默认只有 getter ，不过在需要时也可以提供一个 setter&lt;/p&gt;
+
+&lt;p&gt;六、Vue.js 监听属性&lt;/p&gt;
+
+&lt;p&gt;可以通过 watch 来响应数据的变化&lt;/p&gt;
+
+&lt;p&gt;七、Vue.js 样式绑定&lt;/p&gt;
+
+&lt;p&gt;1）Vue.js class&lt;/p&gt;
+
+&lt;p&gt;class 与 style 是 HTML 元素的属性，用于设置元素的样式，可以用 v-bind 来设置样式属性。&lt;/p&gt;
+
+&lt;p&gt;Vue.js v-bind 在处理 class 和 style 时， 专门增强了它。表达式的结果类型除了字符串之外，还可以是对象或数组。&lt;/p&gt;
+
+&lt;p&gt;2）class 属性绑定&lt;/p&gt;
+
+&lt;p&gt;可以为 v-bind:class 设置一个对象，从而动态的切换 class&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 实例中将 isActive 设置为 true 显示了一个绿色的 div 块，如果设置为 false 则不显 --&amp;gt;
+	&amp;lt;div v-bind:class=&quot;{ active: isActive }&quot;&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- 以上实例 div class 为 --&amp;gt;
+	&amp;lt;div class=&quot;active&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;数组语法&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 我们可以把一个数组传给 v-bind:class --&amp;gt;
+	&amp;lt;div v-bind:class=&quot;[activeClass, errorClass]&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;3）Vue.js style(内联样式)&lt;/p&gt;
+
+&lt;p&gt;可以在 v-bind:style 直接设置样式&lt;/p&gt;
+
+&lt;p&gt;八、Vue.js 事件处理器&lt;/p&gt;
+
+&lt;p&gt;事件监听可以使用 v-on 指令。&lt;/p&gt;
+
+&lt;p&gt;1）事件修饰符：Vue.js 为 v-on 提供了事件修饰符来处理 DOM 事件细节，如：event.preventDefault() 或 event.stopPropagation()。&lt;/p&gt;
+
+&lt;p&gt;Vue.js通过由点(.)表示的指令后缀来调用修饰符。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	.stop
+	.prevent
+	.capture
+	.self
+	.once
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 阻止单击事件冒泡 --&amp;gt;
+	&amp;lt;a v-on:click.stop=&quot;doThis&quot;&amp;gt;&amp;lt;/a&amp;gt;
+	&amp;lt;!-- 提交事件不再重载页面 --&amp;gt;
+	&amp;lt;form v-on:submit.prevent=&quot;onSubmit&quot;&amp;gt;&amp;lt;/form&amp;gt;
+	&amp;lt;!-- 修饰符可以串联  --&amp;gt;
+	&amp;lt;a v-on:click.stop.prevent=&quot;doThat&quot;&amp;gt;&amp;lt;/a&amp;gt;
+	&amp;lt;!-- 只有修饰符 --&amp;gt;
+	&amp;lt;form v-on:submit.prevent&amp;gt;&amp;lt;/form&amp;gt;
+	&amp;lt;!-- 添加事件侦听器时使用事件捕获模式 --&amp;gt;
+	&amp;lt;div v-on:click.capture=&quot;doThis&quot;&amp;gt;...&amp;lt;/div&amp;gt;
+	&amp;lt;!-- 只当事件在该元素本身（而不是子元素）触发时触发回调 --&amp;gt;
+	&amp;lt;div v-on:click.self=&quot;doThat&quot;&amp;gt;...&amp;lt;/div&amp;gt;
+	&amp;lt;!-- click 事件只能点击一次，2.1.4版本新增 --&amp;gt;
+	&amp;lt;a v-on:click.once=&quot;doThis&quot;&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;2）按键修饰符&lt;/p&gt;
+
+&lt;p&gt;Vue 允许为 v-on 在监听键盘事件时添加按键修饰符。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 只有在 keyCode 是 13 时调用 vm.submit() --&amp;gt;
+	&amp;lt;input v-on:keyup.13=&quot;submit&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;记住所有的 keyCode 比较困难，所以 Vue 为最常用的按键提供了别名：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;!-- 同上 --&amp;gt;
+	&amp;lt;input v-on:keyup.enter=&quot;submit&quot;&amp;gt;
+	&amp;lt;!-- 缩写语法 --&amp;gt;
+	&amp;lt;input @keyup.enter=&quot;submit&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;全部的按键别名：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	.enter
+	.tab
+	.delete (捕获 &quot;删除&quot; 和 &quot;退格&quot; 键)
+	.esc
+	.space
+	.up
+	.down
+	.left
+	.right
+	.ctrl
+	.alt
+	.shift
+	.meta
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;p&amp;gt;&amp;lt;!-- Alt + C --&amp;gt;
+	&amp;lt;input @keyup.alt.67=&quot;clear&quot;&amp;gt;
+	&amp;lt;!-- Ctrl + Click --&amp;gt;
+	&amp;lt;div @click.ctrl=&quot;doSomething&quot;&amp;gt;Do something&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;九、Vue.js 表单&lt;/p&gt;
+
+&lt;p&gt;用 v-model 指令在表单控件元素上创建双向数据绑定。&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/vuejsimg/vuejs-sheet.png&quot; alt=&quot;Vue.js 表单&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;十、Vue.js 组件&lt;/p&gt;
+
+&lt;p&gt;组件（Component）是 Vue.js 最强大的功能之一。&lt;/p&gt;
+
+&lt;p&gt;组件可以扩展 HTML 元素，封装可重用的代码。&lt;/p&gt;
+
+&lt;p&gt;组件系统让我们可以用独立可复用的小组件来构建大型应用，几乎任意类型的应用的界面都可以抽象为一个组件树：&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/vuejsimg/vuejs-components.png&quot; alt=&quot;Vue.js 组件&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;十一、Vue.js 自定义指令&lt;/p&gt;
+
+&lt;p&gt;除了默认设置的核心指令( v-model 和 v-show ), Vue 也允许注册自定义指令。&lt;/p&gt;
+
+&lt;p&gt;十二、Vue.js 路由&lt;/p&gt;
+
+&lt;p&gt;Vue.js 路由允许我们通过不同的 URL 访问不同的内容。&lt;/p&gt;
+
+&lt;p&gt;通过 Vue.js 可以实现多视图的单页Web应用（single page web application，SPA）。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vuejs/vue-router&quot;&gt;vue-router 库&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://router.vuejs.org/zh-cn/&quot;&gt;vue-router文档&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Wed, 04 Apr 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/04/04/front-end-skills.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/04/04/front-end-skills.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>2018 热点</title>
+            <description>&lt;p&gt;这是一份很不错的知识清单。&lt;/p&gt;
+
+&lt;p&gt;2018年，区块链的知识储备、应用实践，可能是最令我关注的了。&lt;/p&gt;
+
+&lt;p&gt;Blockchain:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://blockchaindev.org/&quot;&gt; &amp;gt; 区块链技术漫谈&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/chaozh/awesome-blockchain-cn&quot;&gt; &amp;gt; awesome-blockchain-cn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/topics/blockchain&quot;&gt; &amp;gt; Github Blockchain Topic&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://truffleframework.com&quot;&gt; &amp;gt; TRUFFLE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ethereum:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;关键词 - MetaMask&lt;/td&gt;
+      &lt;td&gt;Remix&lt;/td&gt;
+      &lt;td&gt;MyEtherWallet&lt;/td&gt;
+      &lt;td&gt;Etherscan&lt;/td&gt;
+      &lt;td&gt;HashEx&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.ethereum.org&quot;&gt; &amp;gt; Ethereum &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.stateofthedapps.com&quot;&gt; &amp;gt; Ethereum Great Projects &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.ethdocs.org/en/latest/&quot;&gt; &amp;gt; Ethereum Docs &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://ethereum.org/foundation&quot;&gt; &amp;gt; Ethereum Foundation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe&quot;&gt; &amp;gt; Getting Up to Speed on Ethereum&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://abi.hashex.org&quot;&gt; &amp;gt; ABI encoding service by HashEx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/TrustWallet&quot;&gt; &amp;gt; Trust - fast and secure Ethereum wallet that’s easy to use. ERC20 Compatible&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://ethplorer.io&quot;&gt; &amp;gt; Ethereum Tokens Explorer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://ethereum.stackexchange.com/help/badges&quot;&gt; &amp;gt; ethereum.stackexchange.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://opensea.io/&quot;&gt; &amp;gt; opensea.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Augmented Reality:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/GeekLiB/AR-Source&quot;&gt; &amp;gt; Augmented reality (AR) development resources&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/jeromeetienne/AR.js&quot;&gt; &amp;gt; AR.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Virtual Reality:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/aframevr/aframe&quot;&gt; &amp;gt; aframe.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;各种技术帖：&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ChenYilong/iOSBlog/tree/master/Tips/%E5%9F%BA%E4%BA%8EWebsocket%E7%9A%84IM%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF&quot;&gt; &amp;gt; 基于Websocket的IM即时通讯技术&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://segmentfault.com/a/1190000007880723&quot;&gt; &amp;gt; vue-cli#2.0项目结构分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;开源Demo与经验总结：&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/NJHu/iOSProject&quot;&gt; &amp;gt; iOS综合项目&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/yipianfengye/androidProject&quot;&gt; &amp;gt; android产品研发过程中常用的技术，技巧，实践 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.weixinbook.net/&quot;&gt; &amp;gt; 微信小程序开发详解&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;特别Special的内容，怕之后找不到了，必须Mark下来：&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.theduo.io/&quot;&gt; &amp;gt; Duo, Strategic Design &amp;amp; Development&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/xiaobei666/weixin-xiaochengxu666-info&quot;&gt; &amp;gt; WeChat Mini Program&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/Tencent/weui-wxss&quot;&gt; &amp;gt; Tencent/weui-wxss&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/Meituan-Dianping/mpvue&quot;&gt; &amp;gt; Meituan-Dianping/mpvue&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;熟记于心，不怕被难倒：&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.jianshu.com/p/de1418dc031a&quot;&gt; &amp;gt; iOS 面试题 - Alibaba&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.runoob.com/design-pattern/design-pattern-tutorial.html&quot;&gt; &amp;gt; 设计模式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.ruanyifeng.com/blog/2016/09/software-architecture.html&quot;&gt; &amp;gt; 架构模式&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Wed, 28 Mar 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/03/28/hots.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/03/28/hots.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>看一些Dev Blogs</title>
+            <description>&lt;p&gt;一些很不错的 Dev Blogs&lt;/p&gt;
+
+&lt;p&gt;公司:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://tech.meituan.com/archives&quot;&gt; &amp;gt; 美团点评技术团队&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inspiration:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://swifter.tips&quot;&gt; &amp;gt; swifter.tips&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.objccn.io&quot;&gt; &amp;gt; objccn.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://onev.cat&quot;&gt; &amp;gt; cv&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;个人:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://onevcat.com/#blog&quot;&gt; &amp;gt; onevcat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://blog.ibireme.com/archive/&quot;&gt; &amp;gt; ibireme&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://blog.devtang.com/archives/&quot;&gt; &amp;gt; devtang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://blog.cnbang.net/archives/&quot;&gt; &amp;gt; cnbang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://blog.sunnyxx.com/archives/&quot;&gt; &amp;gt; sunnyxx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://southpeak.github.io/archives/&quot;&gt; &amp;gt; southpeak&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://beyondvincent.com/archives/&quot;&gt; &amp;gt; beyondvincent&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://blog.leichunfeng.com/blog/archives/&quot;&gt; &amp;gt; leichunfeng&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://adad184.com/archives/&quot;&gt; &amp;gt; adad184&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://casatwy.com&quot;&gt; &amp;gt; casatwy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://yulingtianxia.com/archives/&quot;&gt; &amp;gt; yulingtianxia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://nianxi.net&quot;&gt; &amp;gt; nianxi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.jianshu.com/u/88a056103c02&quot;&gt; &amp;gt; 没故事的卓同学&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.jianshu.com/u/8d5b91490ca5&quot;&gt; &amp;gt; 故胤道长&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.imlifengfeng.com/blog/&quot;&gt; &amp;gt; imlifengfeng&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.jianshu.com/u/96a14318a4de&quot;&gt; &amp;gt; iOS程序犭袁&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/zhengmin1989/MyArticles&quot;&gt; &amp;gt; SparkZheng&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.iwangke.me/archives/&quot;&gt; &amp;gt; iwangke&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://00red.com/archives/&quot;&gt; &amp;gt; 00red&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://lvwenhan.com/sort/ios&quot;&gt; &amp;gt; lvwenhan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://tutuge.me/archives/&quot;&gt; &amp;gt; tutuge&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://mrpeak.cn/Archives/&quot;&gt; &amp;gt; mrpeak&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://blog.csdn.net/xunyn/article/category/1213985&quot;&gt; &amp;gt; xunyn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://blog.cnbluebox.com&quot;&gt; &amp;gt; cnbluebox&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://joeyio.com/archives/&quot;&gt; &amp;gt; joeyio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://kittenyang.com&quot;&gt; &amp;gt; kittenyang&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.imlifengfeng.com/blog/&quot;&gt; &amp;gt; imlifengfeng&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;English Ver:&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://asciiwwdc.com&quot;&gt; &amp;gt; asciiwwdc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.objc.io&quot;&gt; &amp;gt; objc.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://nshipster.com&quot;&gt; &amp;gt; nshipster(en ver.)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://nshipster.cn&quot;&gt; &amp;gt; nshipster(cn ver.)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.raywenderlich.com/category/ios&quot;&gt; &amp;gt; raywenderlich&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://nshipster.com&quot;&gt; &amp;gt; nshipster(en ver.)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://nshipster.cn&quot;&gt; &amp;gt; nshipster(cn ver.)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://maniacdev.com&quot;&gt; &amp;gt; maniacdev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://developer.apple.com/swift/blog/&quot;&gt; &amp;gt; developer.apple.com(swift blog)&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Sun, 25 Mar 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/03/25/recommend-blogs.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/03/25/recommend-blogs.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>指导日常工作的设计模式和架构模式总结</title>
+            <description>&lt;p&gt;长按下载吧😆&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;脑图欣赏&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;设计模式&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatterns.png&quot; alt=&quot;设计模式&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;设计模式之间的关系&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/the-relationship-between-design-patterns.jpg&quot; alt=&quot;设计模式之间的关系&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;J2EE模式&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/J2EEPatterns.png&quot; alt=&quot;J2EE模式&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;架构模式&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/ArchitecturalPatterns.png&quot; alt=&quot;架构模式&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;设计模式 招式+心法&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;五种 创建型模式，这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式。&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;1) Factory Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：创建一个接口&lt;/p&gt;
+
+&lt;p&gt;Step 02：创建实现接口的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 03：创建一个工厂，生成基于给定信息的实体类的对象&lt;/p&gt;
+
+&lt;p&gt;Step 04：使用该工厂，通过传递类型信息来获取实体类的对象&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatternDiagrams/factory_pattern_uml_diagram.jpg&quot; alt=&quot;Factory Pattern&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;2) Abstract Factory Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：为形状创建一个接口&lt;/p&gt;
+
+&lt;p&gt;Step 02：创建实现接口的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 03：为颜色创建一个接口&lt;/p&gt;
+
+&lt;p&gt;Step 04：创建实现接口的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 05：为 Color 和 Shape 对象创建抽象类来获取工厂&lt;/p&gt;
+
+&lt;p&gt;Step 06：创建扩展了 AbstractFactory 的工厂类，基于给定的信息生成实体类的对象&lt;/p&gt;
+
+&lt;p&gt;Step 07：创建一个工厂创造器/生成器类，通过传递形状或颜色信息来获取工厂&lt;/p&gt;
+
+&lt;p&gt;Step 08：使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatternDiagrams/abstractfactory_pattern_uml_diagram.jpg&quot; alt=&quot;Abstract Factory Pattern&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;3）Singleton Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：创建一个 Singleton 类&lt;/p&gt;
+
+&lt;p&gt;Step 02：从 singleton 类获取唯一的对象&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatternDiagrams/singleton_pattern_uml_diagram.jpg&quot; alt=&quot;Singleton Pattern&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;4）Builder Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：创建一个表示食物条目和食物包装的接口&lt;/p&gt;
+
+&lt;p&gt;Step 02：创建实现 Packing 接口的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 03：创建实现 Item 接口的抽象类，该类提供了默认的功能&lt;/p&gt;
+
+&lt;p&gt;Step 04：创建扩展了 Burger 和 ColdDrink 的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 05：创建一个 Meal 类，带有上面定义的 Item 对象&lt;/p&gt;
+
+&lt;p&gt;Step 06：创建一个 MealBuilder 类，实际的 builder 类负责创建 Meal 对象&lt;/p&gt;
+
+&lt;p&gt;Step 07：BuiderPatternDemo 使用 MealBuider 来演示建造者模式（Builder Pattern）&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatternDiagrams/builder_pattern_uml_diagram.jpg&quot; alt=&quot;Builder Pattern&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;5）Prototype Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：创建一个实现了 Clonable 接口的抽象类&lt;/p&gt;
+
+&lt;p&gt;Step 02：创建扩展了上面抽象类的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 03：创建一个类，从数据库获取实体类，并把它们存储在一个 Hashtable 中&lt;/p&gt;
+
+&lt;p&gt;Step 04：PrototypePatternDemo 使用 ShapeCache 类来获取存储在 Hashtable 中的形状的克隆&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatternDiagrams/prototype_pattern_uml_diagram.jpg&quot; alt=&quot;Prototype Pattern&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;结构型模式，这些设计模式关注类和对象的组合。&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;6）Adapter Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：为媒体播放器MediaPlayer和高级媒体播放器AdvancedMediaPlayer创建接口&lt;/p&gt;
+
+&lt;p&gt;Step 02：创建实现了 AdvancedMediaPlayer 接口的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 03：创建实现了 MediaPlayer 接口的适配器类&lt;/p&gt;
+
+&lt;p&gt;Step 04：创建实现了 MediaPlayer 接口的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 05：使用 AudioPlayer 来播放不同类型的音频格式&lt;/p&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/DesignPatternDiagrams/adapter_pattern_uml_diagram.jpg&quot; alt=&quot;Adapter Pattern&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;行为型模式，这些设计模式关注对象之间的通信。&lt;/p&gt;
+
+&lt;p&gt;++++++++++ ++++++++++&lt;/p&gt;
+
+&lt;p&gt;Chain of Responsibility Pattern&lt;/p&gt;
+
+&lt;p&gt;Step 01：创建抽象的记录器类&lt;/p&gt;
+
+&lt;p&gt;Step 02：创建扩展了该记录器类的实体类&lt;/p&gt;
+
+&lt;p&gt;Step 03：创建不同类型的记录器。赋予它们不同的错误级别，并在每个记录器中设置下一个记录器。每个记录器中的下一个记录器代表的是链的一部分&lt;/p&gt;
+
+</description>
+            <pubDate>Sat, 24 Mar 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/03/24/design-pattern.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/03/24/design-pattern.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>推荐算法</title>
+            <description>&lt;p&gt;了解推荐算法的三篇短小精干的小帖子，pm都能看懂，点开来看看吧：&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://url.cn/5lBlSw1&quot;&gt;1分钟了解协同过滤，pm都懂了&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://url.cn/5kPxVDv&quot;&gt;1分钟了解基于内容的推荐，pm又懂了&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://url.cn/5NqDKA5&quot;&gt;1分钟了解相似性推荐，pm表示压力很大&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Thu, 22 Mar 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/03/22/recommendation-algorithm.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/03/22/recommendation-algorithm.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Mastering the Requirements Process</title>
+            <description>&lt;p&gt;Mastering the Requirements Process - Getting Requirements Right&lt;/p&gt;
+
+&lt;h2 id=&quot;part-01---方法概述&quot;&gt;Part 01 - 方法概述&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-基本事实&quot;&gt;1. 基本事实&lt;/h3&gt;
+
+&lt;p&gt;1.1 关于需求的11个基本事实&lt;/p&gt;
+
+&lt;p&gt;（1）事实1&lt;/p&gt;
+
+&lt;p&gt;需求其实并非在谈需求。&lt;/p&gt;
+
+&lt;p&gt;（2）事实2&lt;/p&gt;
+
+&lt;p&gt;如果我们必须构建软件，那么它必须为拥有它的人提供最理想的价值。&lt;/p&gt;
+
+&lt;p&gt;（3）事实3&lt;/p&gt;
+
+&lt;p&gt;如果软件不必满足需求，那你怎么干都行。但是，如果软件需要满足需求，你就必须知道要求是什么，这样才能构建出正确的软件。&lt;/p&gt;
+
+&lt;p&gt;（4）事实4&lt;/p&gt;
+
+&lt;p&gt;构建一个软件和解决一个业务问题之间，存在巨大的差别。也许构建一个软件不一定能真正解决一个业务。&lt;/p&gt;
+
+&lt;p&gt;（5）事实5&lt;/p&gt;
+
+&lt;p&gt;需求不一定要写下来，但构建者必须知道它们。&lt;/p&gt;
+
+&lt;p&gt;（6）事实6&lt;/p&gt;
+
+&lt;p&gt;客户不一定总能给你正确答案。有时候客户也不可能只到什么是对的，有时候他们就是不知道需要什么。&lt;/p&gt;
+
+&lt;p&gt;（7）事实7&lt;/p&gt;
+
+&lt;p&gt;需求不是偶然得到的，要通过某种有序的过程得到。&lt;/p&gt;
+
+&lt;p&gt;（8）事实8&lt;/p&gt;
+
+&lt;p&gt;你怎么迭代都可以，但任然需要理解业务的需求。&lt;/p&gt;
+
+&lt;p&gt;（9）事实9&lt;/p&gt;
+
+&lt;p&gt;没有银弹 &lt;a href=&quot;https://en.wikipedia.org/wiki/Silver_Bullet&quot;&gt;Silver Bullet&lt;/a&gt;，所有方法和工具都无法弥补糟糕的想法和糟糕的手艺。&lt;/p&gt;
+
+&lt;p&gt;（10）事实10&lt;/p&gt;
+
+&lt;p&gt;要想成功地实现需求，需求就必须可度量、可测试。&lt;/p&gt;
+
+&lt;p&gt;（11）事实11&lt;/p&gt;
+
+&lt;p&gt;作为业务分析师，你将改变用户思考这个问题的方式，不是现在就是将来。&lt;/p&gt;
+
+&lt;p&gt;1.2 究竟什么是“需求（Requirement）”&lt;/p&gt;
+
+&lt;p&gt;需求实质上包括三种大类型：&lt;/p&gt;
+
+&lt;p&gt;（1）功能需求&lt;/p&gt;
+
+&lt;p&gt;功能需求是产品必须完成的那些事儿。&lt;/p&gt;
+
+&lt;p&gt;（2）非功能需求&lt;/p&gt;
+
+&lt;p&gt;非功能需求是产品必须具备的属性或品质。&lt;/p&gt;
+
+&lt;p&gt;（3）限制条件&lt;/p&gt;
+
+&lt;p&gt;限制条件是一个全局问题，约束着所有的需求。&lt;/p&gt;
+
+&lt;p&gt;1.3 Volere需求过程（Volere Requirements Process）&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.volere.co.uk/processdesign.htm&quot;&gt;需求过程设计 Requirements Process Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-需求过程&quot;&gt;2. 需求过程&lt;/h3&gt;
+
+&lt;div class=&quot;scale&quot;&gt;&lt;img src=&quot;img/resources/VolereRequirementsProcess.jpg&quot; alt=&quot;Volere 需求过程&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.volere.co.uk/template.htm&quot;&gt;Volere 需求规格说明书模板 Volere Requirements Specification Template&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;### 3. to be continued&lt;/p&gt;
+</description>
+            <pubDate>Wed, 14 Mar 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/03/14/mastering-the-requirements-process.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/03/14/mastering-the-requirements-process.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Data-Driven Marketing</title>
+            <description>&lt;p&gt;Data-Driven Marketing - The 15 Important Marketing Metrics&lt;/p&gt;
+
+&lt;h2 id=&quot;part-01--概述&quot;&gt;Part 01- 概述&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-营销分水岭&quot;&gt;1. 营销分水岭&lt;/h3&gt;
+
+&lt;p&gt;1.1 15个基本的营销指标&lt;/p&gt;
+
+&lt;p&gt;（1）品牌认知度&lt;/p&gt;
+
+&lt;p&gt;（2）试用驱动&lt;/p&gt;
+
+&lt;p&gt;（3）流失&lt;/p&gt;
+
+&lt;p&gt;（4）客户满意度（CAST）&lt;/p&gt;
+
+&lt;p&gt;（5）命中率&lt;/p&gt;
+
+&lt;p&gt;（6）利润&lt;/p&gt;
+
+&lt;p&gt;（7）净现值（NPV）&lt;/p&gt;
+
+&lt;p&gt;（8）内部收益率（IRR）&lt;/p&gt;
+
+&lt;p&gt;（9）回报&lt;/p&gt;
+
+&lt;p&gt;（10）客户生命周期价值（CLTV）&lt;/p&gt;
+
+&lt;p&gt;（11）每一点击成本（CPC）&lt;/p&gt;
+
+&lt;p&gt;（12）交易转化率（TCR）&lt;/p&gt;
+
+&lt;p&gt;（13）广告投入回报（ROA）&lt;/p&gt;
+
+&lt;p&gt;（14）跳出率&lt;/p&gt;
+
+&lt;p&gt;（15）口碑（WOM）（社会媒体到达）&lt;/p&gt;
+
+&lt;p&gt;前10指标称为经典营销指标。指标（1）~（5）是基本的非财务指标，这些指标确定了品牌效力、客户忠诚度、比较营销活动和营销活动效果。指标（6）~（9）是基础财务指标。指标（10）是制定基于客户价值的决策的基础财务指标。&lt;/p&gt;
+
+&lt;p&gt;后5个指标成为“新时代营销指标”。指标（11）~（13）放映了搜索引擎营销的效果。指标（14）是理解你网站有多好的关键指标。指标（15）反映了社会媒体营销的效果。&lt;/p&gt;
+
+&lt;p&gt;1.2 营销预算：领跑者和落后者之间的关键差别&lt;/p&gt;
+
+&lt;p&gt;根据营销投入实际想要做什么，定义了用于刺激需求营销、品牌化和认知、客户关系、塑造市场和基础设施与能力建设的资金桶。&lt;/p&gt;
+
+&lt;p&gt;（1）刺激需求营销：这些营销活动在活动后的相对较短的时期内能驱动收入。如折价销售、赠券和事件营销。&lt;/p&gt;
+
+&lt;p&gt;（2）品牌化和认知：这些营销活动促成认知。如赞助运动会/事件、财产冠名权、明确为提高认知（不是为了提升未来销售）而设计的广告(电视/印刷品/网络/电子邮件广告)。&lt;/p&gt;
+
+&lt;p&gt;（3）客户关系：这些营销活动聚焦于生成与客户的各种关系，促成客户忠诚度和客户承诺。如购买后的感谢条、类似礼宾购买服务的忠诚计划。&lt;/p&gt;
+
+&lt;p&gt;（4）塑造市场：策划这些营销活动，通常是通过独立的第三方推荐，使市场接受你想推广的产品或服务。如通过B2B公司的分析师关系、通过社会媒体博客，来影响用户的感知。&lt;/p&gt;
+
+&lt;p&gt;（5）基础设施与能力建设：这些投资用于支持Marketing Team的技术和培训。例如，技术投入包括，支持数据驱动营销的EDW（Enterprise Data Warehouse，企业级数据仓库）、分析工具、营销资源管理软件。&lt;/p&gt;
+
+&lt;p&gt;财务指标可以被用来量化大约50%的营销活动。营销分水岭确实存在，市场领跑者在刺激需求营销上投入较少，而在品牌化和客户资产、支持数据驱动营销的基础建设上，投入更多。&lt;/p&gt;
+
+&lt;p&gt;1.3 确定数据驱动营销战略&lt;/p&gt;
+
+&lt;p&gt;（1）第一步，开发一个数据驱动营销战略的框架&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pdfs.semanticscholar.org/7c53/fadc08645c3d1a21607ee8ca87b6517c56bc.pdf&quot;&gt;客户管理管理框架，A Framework for Customer Relationship Management&lt;/a&gt;：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Topic&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;了解自己…&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;战略目标&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;了解客户…&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;生成数据库/分析&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;客户细分…&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;选择客户/客户定位&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;数据驱动营销…&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;营销活动&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;建立信任…&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;隐私条款&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;保持记录…&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;指标&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;（2）第二步，通过分析来理解客户&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;通过Excel，或更多的技术工具来分析数据，方法包括更细粒度的客户细分，最终这些工作会引导到目标客户定位和数据驱动的营销活动。&lt;/dt&gt;
+  &lt;dt&gt;首先通过数据采集和分析，引导到对客户特征的洞察以进行客户细分，然后对目标客户进行定位做数据驱动的营销。&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;Summary&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;15个基本指标量化了绝大多数营销活动。
+表现好的公司在品牌化、客户资产和支持数据驱动营销的技术上投入更多，而在刺激需求营销上投入相对少。
+营销的可持续竞争优势，来自不能被轻易复制的活动的组合。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3 id=&quot;2-数据驱动的营销需要克服5个障碍&quot;&gt;2. 数据驱动的营销需要克服5个障碍&lt;/h3&gt;
+
+&lt;p&gt;障碍1：起步&lt;/p&gt;
+
+&lt;p&gt;（1）不知道怎么做&lt;/p&gt;
+
+&lt;p&gt;（2）没有适当的指标&lt;/p&gt;
+
+&lt;p&gt;（3）问题不是数据太少，反而是有许多数据但没一个是有用的&lt;/p&gt;
+
+&lt;p&gt;（4）不知道从哪里开始&lt;/p&gt;
+
+&lt;p&gt;障碍2：因果关系&lt;/p&gt;
+
+&lt;p&gt;（1）有许多的干扰因素，并且活动使得确认原因和结果变得不可能&lt;/p&gt;
+
+&lt;p&gt;（2）营销活动和客户行为之间存在时延&lt;/p&gt;
+
+&lt;p&gt;（3）活动感知并不能直接带来销售，但我就是想看到ROI，怎么办&lt;/p&gt;
+
+&lt;p&gt;障碍3：数据缺乏&lt;/p&gt;
+
+&lt;p&gt;（1）作为B2B公司并不直接销售产品给客户，所以，我不知道我们的客户是谁&lt;/p&gt;
+
+&lt;p&gt;（2）因为隐私条款的限制，不能手机客户数据&lt;/p&gt;
+
+&lt;p&gt;障碍4：资源和工具&lt;/p&gt;
+
+&lt;p&gt;（1）我们没有时间和/或者成本太高&lt;/p&gt;
+
+&lt;p&gt;（2）我们没有工具和/或者我们没有支持数据驱动营销的系统&lt;/p&gt;
+
+&lt;p&gt;（3）我们是营销人员，真心无法和信息技术（IT）人员沟通&lt;/p&gt;
+
+&lt;p&gt;（4）IT建了系统，但不是我们需要的资源和工具&lt;/p&gt;
+
+&lt;p&gt;障碍5：人员与变革&lt;/p&gt;
+
+&lt;p&gt;（1）我们不去衡量因为我们不想有这个责任&lt;/p&gt;
+
+&lt;p&gt;（2）我们的激励都是对应着营销活动，而不是营销结果&lt;/p&gt;
+
+&lt;p&gt;（3）我们没有进行衡量的文化&lt;/p&gt;
+
+&lt;p&gt;（4）我们没有进行数据营销的技能&lt;/p&gt;
+
+&lt;p&gt;（5）我们的组织拒绝想数据驱动营销这样的新想法&lt;/p&gt;
+
+&lt;p&gt;（6）营销是创造性的：施加指标和流程会扼杀创造性和创新&lt;/p&gt;
+
+&lt;p&gt;以下是如何克服这5个障碍的策略。&lt;/p&gt;
+
+&lt;p&gt;2.1 克服障碍1：起步 – 聚焦于采集合适的数据，通过轻松得分简历里程碑&lt;/p&gt;
+
+&lt;p&gt;2.2 克服障碍2：因果关系 – 进行小试验&lt;/p&gt;
+
+&lt;p&gt;2.3 克服障碍3：数据缺乏 – 获得客户数据的战略&lt;/p&gt;
+
+&lt;p&gt;2.4 克服障碍4：资源和工具 – 建设数据驱动营销的基础设施&lt;/p&gt;
+
+&lt;p&gt;2.5 克服障碍5：人员与变革 – 建立数据驱动营销的文化&lt;/p&gt;
+
+&lt;p&gt;### 3. to be continued&lt;/p&gt;
+</description>
+            <pubDate>Sun, 11 Mar 2018 09:00:00 +0800</pubDate>
+            <link>http://localhost:4000#/2018/03/11/the-15-marketing-metrics.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/03/11/the-15-marketing-metrics.html</guid>
+            
+            
+        </item>
+        
+    </channel>
+</rss>
